@@ -12,6 +12,9 @@
     >{{ .Site.Title  }}</a
   >
   <section id="main" class="mt5">
+  	<article itemprop="articleBody" id="content" class="w-90 lh-copy">
+		{{ .Content }}
+	</article>
     <div>
       <ul id="list" class="pl0">
       
@@ -32,3 +35,4 @@
   {{ partial "footer.html" . }}
   </body>
 </html>
+
