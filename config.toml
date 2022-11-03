@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/yukimatsuda1999/notemy/blob/main/'
+baseURL = 'https://github.com/yukimatsuda1999/notemy/blob/main/themes/hugo-theme-notemy/'
 languageCode = 'ja-jp'
 title = 'Notemy  --Personal Website'
 
