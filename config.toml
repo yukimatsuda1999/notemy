@@ -1,0 +1,16 @@
+baseURL = 'http://example.org/'
+languageCode = 'ja-jp'
+title = 'Notemy  --Personal Website'
+
+theme = 'hugo-theme-notemy'
+
+copyright = "(ɔ) 2022 Yuki Mastuda"
+
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
+	[markup.highlight]
+		noClasses=false
