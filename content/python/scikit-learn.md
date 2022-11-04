@@ -1,5 +1,5 @@
 ---
-title: "Scikit-learn  --機械学習支援ライブラリ"
+title: "Scikit-learn - 機械学習支援ライブラリ"
 date: 2022-11-02T11:03:16+09:00
 ---
 

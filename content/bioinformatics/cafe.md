@@ -1,5 +1,5 @@
 ---
-title: "CAFE --Computational Analysis of gene Family evolution"
+title: "CAFE - Computational Analysis of gene Family evolution"
 date: 2022-11-02T11:03:16+09:00
 ---
 

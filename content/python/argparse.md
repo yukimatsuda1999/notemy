@@ -1,5 +1,5 @@
 ---
-title: "ArgumentParser  --コマンドライン引数の実装"
+title: "ArgumentParser - コマンドライン引数の実装"
 date: 2022-11-02T11:03:16+09:00
 ---
 
