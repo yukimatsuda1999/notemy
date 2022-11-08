@@ -3,8 +3,8 @@ title: "OrthoFinder"
 date: 2022-11-02T11:03:16+09:00
 ---
  
-- 公式：https://github.com/davidemms/OrthoFinder
-- Qiita：[OrthoFinderを用いたOrthologous解析](https://qiita.com/okuman/items/c7ef9588e990a670d3ee)
+- 公式: https://github.com/davidemms/OrthoFinder
+- Qiita: [OrthoFinderを用いたOrthologous解析](https://qiita.com/okuman/items/c7ef9588e990a670d3ee)
 
 ### 出力ディレクトリの構造
 ```
