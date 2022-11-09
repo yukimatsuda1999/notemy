@@ -6,8 +6,8 @@ date: 2022-11-02T11:03:16+09:00
 基本的な動かし方は、入力となるシェルスクリプトを書いてCAFEに渡す、という形になる。
 このシェルスクリプトを書く過程で、OrthoFinderの出力であるOrthogroups.GeneCount.tsvと種の系統樹（Species_Tree/SpeciesTree_rooted.txt）が必要。
 
-#### こんな感じのシェルスクリプトを書く
-```
+### こんな感じのシェルスクリプトを書く
+```sh
 #! cafe 
 # version 
 # date 
@@ -30,7 +30,7 @@ report resultfile
 	- -t: λ構造　系統樹上の遺伝子増減速度が同じだと考えられる枝を同じ数字にする　全枝で同じだと仮定する場合すべて1にする　系統樹の枝長の部分を書き換えればいい
 - report: 出力ファイルの名前
 
-#### インプットとなるテーブルを用意する
+### インプットとなるテーブルを用意する
 OrthoFinderの出力であるOrthogroups.GeneCount.tsvを基に、CAFEの入力ファイルとして加工する。基本的には、
 - Description列、ID列を作る
 - 全種の遺伝子数が同じである遺伝子ファミリーを除く
@@ -46,7 +46,7 @@ OrthoFinderの出力であるOrthogroups.GeneCount.tsvを基に、CAFEの入力�
 python3 make_cafe_input.py Orthogroups.GeneCount.tsv Cafe_input.tsv
 ```
 
-#### ultrametricな系統樹を用意する
+### ultrametricな系統樹を用意する
 OrthoFinderの出力系統樹は遺伝的距離に基づく系統樹であるため、ultrametricに加工する必要がある。Rのapeなどを使うと便利。
 
 ``` R
@@ -75,18 +75,18 @@ write.tree(tree2, file = "tree_ultrametric.nwk") #ultrametric系統樹の保存
 
 シェルスクリプトが用意できたら、次のコマンドでCAFEを実行する。
 
-```
+```sh
 cafe example.sh
 ```
 
-#### 出力ファイルを加工する
+### 出力ファイルを加工する
 CAFEの実行に成功すると、reportで指定した名前の.repファイルが出てくる。このままだと見づらいため、公式のスクリプトを使って加工する。
 
 1. https://github.com/hahnlab/cafe_tutorial に行き、コードをダウンロード→解凍する。（緑色のCode▼から。）reportファイルのあるディレクトリに置いておくと便利。
 
 2. 次のコマンドでreportファイルを加工する。4つのファイルが出力される。
 
-```
+```sh
 python cafe_tutrial/python_scripts/cafetutorial_report_analysis.py -i resultfile.rep -o cafe_summary
 ```
 
