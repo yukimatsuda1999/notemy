@@ -110,15 +110,17 @@ pre code {
 	padding: 0px;
 }
 
-th {
-	padding: 10px;
-	border-bottom: solid 4px #778ca3;
-	color: #778ca3;
+table{
+	border-collapse:collapse;
+	margin:0 auto;
+	font-size: 85%;
 }
-
-td {
-	padding: 10px;
-	border-bottom: solid 1px #778ca3;
+td,th{
+	border:1px solid #ccc;
+	padding:10px;
+}
+th{
+	background:#EFEFEF;
 }
 
 kbd {
