@@ -21,7 +21,7 @@ https://www.ncbi.nlm.nih.gov/genome/doc/ftpfaq/
 ### Accessionを指定してダウンロード
 - `curl`コマンドを使う方法。
 	```sh
-	curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v1/genome/accession/GCF_000002315.6/download?exclude_sequence=True&include_annotation_type=PROT_FASTA&>
+	curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v1/genome/accession/GCF_000002315.6/download?exclude_sequence=True&include_annotation_type=PROT_FASTA&filename=GCF_000002315.6.zip" -H "Accept: application/zip"
 	
 	# exclude_sequence=True: genomic.fnaを除外
 	# include_annotation_type: GENOME_GFF,RNA_FASTA,CDS_FASTA,PROT_FASTAから
