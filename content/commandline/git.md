@@ -55,6 +55,11 @@ https://docs.github.com/ja/get-started/getting-started-with-git/ignoring-files
 	/*.Rproj
 	```
 
+- `~/.config/git/ignore`でグローバルに除外対象を設定。
+	```sh
+	.DS_Store
+	```
+
 - すでに追跡しているファイルを除外するにはトラッキングを外す。
 	```sh
 	git rm --cached <FILE_NAME>
