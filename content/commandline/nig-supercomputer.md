@@ -34,7 +34,7 @@ CPUコアを複数もちいるジョブ。順次多数実行していくのが�
 #$ -t 1-6:1
 #$ -cwd 
 seq_ids=(SRR030253 SRR030254 SRR030255 SRR030256 SRR030257 SRR030258)
-seq_id=$seq_ids[$SGE_TASK_ID]
+seq_id=${seq_ids[$SGE_TASK_ID-1]}
 
 ${seq_id}.hoge
 ```
