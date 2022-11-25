@@ -12,7 +12,7 @@
 html {
 	line-height: 1.5;
 	font-family: var(--sans-serif);
-	font-size: 16px;
+	-webkit-text-size-adjust: 100%;
 	color: #202020;
 }
 
