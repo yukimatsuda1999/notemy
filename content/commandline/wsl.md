@@ -4,6 +4,8 @@ date: 2022-11-25T14:56:42+09:00
 ---
 
 ## WSLとは
+https://learn.microsoft.com/ja-jp/windows/wsl/
+
 乱暴に言ってしまうとWindowsでLinuxを扱える仮想環境のこと。
 
 ## WSLのインストール: Windows11の場合
@@ -16,7 +18,7 @@ date: 2022-11-25T14:56:42+09:00
 ### 再起動と設定
 1. マシンを再起動する。
 2. 再起動後、インストール処理を経てUbuntuが起動する。
-3. `Enter new UNIX usernaem:`と表示されたらユーザーネームを設定。<br>(NG: `松田`(日本語), `y matsuda`(スペース), `y.matsuda`(コロン))
+3. `Enter new UNIX usernaem:`と表示されたらユーザーネームを設定。<br>(NG: `松田`(日本語), `y matsuda`(スペース), `y.matsuda`(ピリオド))
 4. `Enter new UNIX password:`と表示されたらパスワードを設定。`sudo`とかするときに要求される。
 5. `Retype new UNIX password:`と表示されたらパスワードを再入力。
 
@@ -37,7 +39,7 @@ date: 2022-11-25T14:56:42+09:00
 
 ### Ubuntuの起動と設定
 1. <kbd>検索</kbd> |> 「Ubuntu」を検索 |> 「開く」
-2. `Enter new UNIX usernaem:`と表示されたらユーザーネームを設定。<br>(NG: `松田`(日本語), `y matsuda`(スペース), `y.matsuda`(コロン))
+2. `Enter new UNIX usernaem:`と表示されたらユーザーネームを設定。<br>(NG: `松田`(日本語), `y matsuda`(スペース), `y.matsuda`(ピリオド))
 3. `Enter new UNIX password:`と表示されたらパスワードを設定。`sudo`とかするときに要求される。
 4. `Retype new UNIX password:`と表示されたらパスワードを再入力。
 
@@ -52,6 +54,8 @@ sudo apt upgrade
 ```
 
 ## Windows標準のターミナル
+`cd`, `cp`, `date`, `echo`, `find`, `mkdir`, `mv`, `rm`など基本的なコマンドはLinuxと共通。
+
 ### コマンドプロンプト
 古のMicrosoft製CUI。
 
