@@ -23,11 +23,6 @@ date: 2022-11-02T11:03:16+09:00
 - `du`<br>: ファイルの容量表示。`-h`でちょうどいい単位にしてくれる。`--max-depth N`で階層指定。
 - `ps`<br>: いまターミナルで実行中のプロセスを表示
 
-## ショートカット
-- <kbd>Ctrl</kbd>+<kbd>A</kbd>, <kbd>Ctrl</kbd>+<kbd>E</kbd><br>: 行頭、行末へカーソル移動
-- <kbd>Ctrl</kbd>+<kbd>U</kbd>, <kbd>Ctrl</kbd>+<kbd>K</kbd><br>: 行頭、行末まで削除
-- <kbd>Ctrl</kbd>+<kbd>W</kbd><br>: 1単語分のコマンドを削除
-- <kbd>Ctrl</kbd>+<kbd>C</kbd><br>: 実行中のプロセスを中断
 
 ## 解凍・圧縮
 - ファイルの解凍・圧縮
