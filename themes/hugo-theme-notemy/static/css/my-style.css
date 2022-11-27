@@ -48,11 +48,12 @@ h2 {
 	background-color: #f1f1f1;
 	margin-top: 2.5em;
 	padding: 0.5em 0 0.5em 0.5em;
-	font-size: 1.3em;
+	font-size: 1.25em;
 }
 
 h3{
 	border-bottom: 2px solid #f0f0f0;
+	font-size: 1.2em;
 }
 
 ol, ul {
@@ -119,11 +120,13 @@ table{
 	border-collapse: collapse;
 	font-size: 85%;
 }
+
 td,th{
 	border: 1px solid #ccc;
 	padding: 10px;
 }
-th{
+
+th {
 	background:#EFEFEF;
 }
 
