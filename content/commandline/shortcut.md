@@ -17,7 +17,7 @@ date: 2022-11-27T13:40:49+09:00
 |<kbd>option</kbd>+<kbd>F</kbd>/<kbd>→</kbd>|次の単語に移動 |
 |<kbd>option</kbd>+<kbd>B</kbd>/<kbd>←</kbd>|前の単語に移動 | 
 |<kbd>command</kbd>+<kbd>,</kbd>|環境設定を開く |
-|<kbd>control</kbd>+<kbd>command</kbd> <kbd>F</kbd>|フルスクリーン |
+|<kbd>control</kbd>+<kbd>command</kbd>+<kbd>F</kbd>|フルスクリーン |
 |<kbd>command</kbd>+<kbd>N</kbd>|新規ターミナルを開く |
 |<kbd>command</kbd>+<kbd>Q</kbd>|ターミナルを閉じる |
 |<kbd>command</kbd>+<kbd>T</kbd>|新規タブを開く（<kbd>control</kbd> <kbd>Tab</kbd>で移動） |
@@ -26,7 +26,7 @@ date: 2022-11-27T13:40:49+09:00
 ### Rstudio
 | Key | コマンド |
 |:---|:---|
-|<kbd>control</kbd>+<kbd>shift</kbd>+<kbd>M</kbd> |パイプ`%>`の挿入 |
+|<kbd>control</kbd>+<kbd>shift</kbd>+<kbd>M</kbd> |パイプ`%>%`の挿入 |
 |<kbd>control</kbd>+<kbd>shift</kbd>+<kbd>C</kbd> |選択行をコメントアウト/コメントアウト解除 |
 
 
