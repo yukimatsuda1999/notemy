@@ -115,13 +115,13 @@ pre code {
 }
 
 table{
-	border-collapse:collapse;
-	margin:0 auto;
+	margin-left: 0;
+	border-collapse: collapse;
 	font-size: 85%;
 }
 td,th{
-	border:1px solid #ccc;
-	padding:10px;
+	border: 1px solid #ccc;
+	padding: 10px;
 }
 th{
 	background:#EFEFEF;
