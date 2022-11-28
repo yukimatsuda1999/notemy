@@ -32,11 +32,12 @@ CPUコアを複数もちいるジョブ。順次多数実行していくのが�
 ```Shell
 #$ -S /bin/bash
 #$ -t 1-6:1
+#$ -tc 3
 #$ -cwd 
 seq_ids=(SRR030253 SRR030254 SRR030255 SRR030256 SRR030257 SRR030258)
 seq_id=${seq_ids[$SGE_TASK_ID-1]}
 
-${seq_id}.hoge
+mv ${seq_id}.hoge ${seq_id}.fuga
 ```
 
 - アレイジョブ、パラレルジョブ関連の引数
@@ -70,6 +71,18 @@ ${seq_id}.hoge
 	```
 
 ## Singularity
+バイオインフォマティクスでよく使われる解析ツールがバージョン別に`/usr/local/biotools/`に配置されており、インストール不要で使うことができる。
+```sh
+## どんなツールが使えるか見てみる。たとえばblast。
+## biotools/の、各ツールの頭文字ディレクトリを参照。
+ls /usr/local/biotools/b/blast*
+```
+
+### 使用例
+```
+singularity exec /usr/local/biotools/b/blast:2.6.0--boost1.60_0 blastp -h
+```
+
 
 ## Misc.
 ### Pythonの外部ライブラリをインストールする場合
