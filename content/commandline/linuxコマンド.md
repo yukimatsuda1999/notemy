@@ -24,12 +24,3 @@ date: 2022-11-02T11:03:16+09:00
 - `ps`<br>: いまターミナルで実行中のプロセスを表示
 
 
-## 解凍・圧縮
-- ファイルの解凍・圧縮
-	- 圧縮: `gzip file`
-	- 解凍: `gunzip file.gz`
-	- ディレクトリ下のファイル全て: `gzip directory/*`
-- ディレクトリごと
-	- 圧縮: `tar czf directory.tar.gz directory`
-	- 解凍: `tar xzf directory.tar.gz`
-
