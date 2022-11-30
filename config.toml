@@ -6,8 +6,6 @@ theme = 'hugo-theme-notemy'
 
 copyright = "(ɔ) 2022 Yuki Mastuda"
 
-googleAnalytics = "G-6H2M78RD8J"
-
 [markup]
 	[markup.goldmark]
 		[markup.goldmark.renderer]
