@@ -4,7 +4,7 @@ title = 'Notemy - Personal Website for Memorandum'
 
 theme = 'hugo-theme-notemy'
 
-copyright = "(ɔ) 2022 Yuki Mastuda"
+copyright = "(ɔ) 2022 Yuki Matsuda"
 
 [markup]
 	[markup.goldmark]
