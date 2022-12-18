@@ -65,6 +65,25 @@ https://docs.github.com/ja/get-started/getting-started-with-git/ignoring-files
 	git rm --cached <FILE_NAME>
 	```
 
+## SSH接続
+https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/about-ssh
+
+- [SSHキーを生成する。]({{< ref "ssh.md" >}})
+- [githubに公開キーを登録する。](https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- `ssh -T git@github.com`で接続確認。
+
+### `ssh -T`の際に`permission denied`となる場合
+https://docs.github.com/ja/authentication/troubleshooting-ssh/using-ssh-over-the-https-port
+
+`ssh-keygen`の際にファイル名を変更していると認証がうまくいかない。`~/.ssh/config`に以下を追記して解決。
+```
+Host github github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_****
+```
+
+
 ## そのほかのコマンド
 - 直前の操作を修正
 	```sh
