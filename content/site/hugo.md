@@ -11,7 +11,7 @@ homebrewで一発。
 brew install hugo
 ```
 
-## ローカルでの基本的な使い方
+## Quick Start
 1. サイトの骨組みを作る。
 	```sh
 	mkdir PATH_TO_SITE
