@@ -2,7 +2,7 @@ baseURL = 'https://notemy.netlify.app/'
 languageCode = 'ja-jp'
 title = 'Notemy - Personal Website for Memorandum'
 
-theme = 'https://github.com/yukimatsuda1999/hugo-theme-notemy'
+theme = 'hugo-theme-notemy'
 
 copyright = "(ɔ) 2022 Yuki Matsuda"
 
