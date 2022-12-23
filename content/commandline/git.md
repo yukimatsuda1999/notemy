@@ -26,6 +26,7 @@ date: 2022-11-02T11:03:16+09:00
 	git remote -v	# 何も表示されない
 	git remote add origin https://github.com/*username*/*new_repository*.git
 	git remote -v	# なんか出る
+	git branch -M main
 	git push -u origin main
 	```
 
